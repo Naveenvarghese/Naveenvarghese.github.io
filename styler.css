@@ -1,0 +1,45 @@
+body{
+background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(11,61,145,1) 50%);
+}
+
+
+/* COUNTDOWN TIMER*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .count{
+    font-weight: lighter;
+  }
+  
+  li {
+    display: inline-block;
+    font-size: 1em;
+    text-align-last: left;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+
+
+  }
+  .days,.hours,.minutes,.seconds{
+    font-weight: 900;
+
+  }
+  
+  li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  
+  .container-fluid {
+    text-align: center;
+  }
+
+
+.img-fluid{
+    min-width: 10rem;
+}
